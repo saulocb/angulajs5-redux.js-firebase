@@ -1,0 +1,7 @@
+select {
+    option {
+        &:first-child {
+            content: "Choose";
+        }
+    }
+}

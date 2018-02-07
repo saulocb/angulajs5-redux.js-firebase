@@ -1,0 +1,14 @@
+<br/>
+<div>
+  <div>
+    <label>Name</label>
+     <input type="text" name="name" [value]="user.name">
+  </div>
+  <div>
+      <label>Email</label>
+       <input type="text" name="email" [value]="user.email">
+  </div>
+  <div>
+      <app-dropdow-rule [selectt]="user.rule.ruleName | removeIndex"></app-dropdow-rule>
+  </div>
+</div>

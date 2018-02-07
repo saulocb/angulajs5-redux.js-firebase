@@ -1,0 +1,16 @@
+.table {
+    thead {
+        th {
+            &:first-child {
+                padding-left: 20px;
+            }
+        }
+    }
+    tbody {
+        td {
+            &:first-child {
+                padding-left: 20px;
+            }
+        }
+    }
+}

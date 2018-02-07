@@ -1,0 +1,4 @@
+<label for="inputPassword" class="col-form-label">Rule</label>
+<select class="form-control" (change)="ruleSelectevent($event)">
+  <option  [selected]="rule.ruleName == selectt" *ngFor="let rule of rule$ | async " [value]="rule.key">{{rule.ruleName}}</option>
+</select>

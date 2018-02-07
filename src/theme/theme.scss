@@ -1,0 +1,20 @@
+/*
+ * Global application theme.
+ * Framework overrides and customization goes here.
+ */
+
+ .jumbotron {
+    margin: 0;
+    height: 180px;
+    background: url(https://oversumo-stage.s3-eu-west-1.amazonaws.com/uploads/hero/image_splash/doomfist/splash.jpg);
+    background-position: top right;
+    background-size: cover;
+    margin-bottom: 10px;
+    .logo {
+      width: 100%;
+    }
+    h1 {
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+  }

@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-md-6">
+        <app-rule-form   (ruleCreate)="create($event)"></app-rule-form>
+    </div>
+    <div class="col-md-6">
+        <app-rule-list  (ruleDelete)="delete($event)"  [rules]="rule$"></app-rule-list>
+    </div>    
+</div>

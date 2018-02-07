@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-md-6">
+        <app-user-creat (createUser)="onCreateUser($event)"></app-user-creat>
+    </div>
+    <div class="col-md-6">
+        <app-user-list 
+         (detailsDelete)="delete($event)"   
+         (details)="ShowDetails($event)"
+         [userList]="users" ></app-user-list>
+    </div>    
+</div>
+
+
+

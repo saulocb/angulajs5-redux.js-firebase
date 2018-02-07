@@ -1,0 +1,19 @@
+<fieldset class="card">
+    <div class="card-header"><h5 class="mb-0">Rules</h5></div>
+    <div class="card-body p-0">
+        <table class="table table-striped table-light m-0">
+          <thead>
+            <tr>
+              <th scope="col">Rule Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let rule of rules | async">
+              <td>{{rule.ruleName}}</td>
+              <td><button (click)="delete(rule)" class="btn btn-danger btn-sm">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+</fieldset>
+   
