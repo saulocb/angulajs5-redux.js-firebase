@@ -20,9 +20,7 @@ export class RuleComponent implements OnInit {
 
 delete(rule: Rule){
     Observable.of(this.ruleStoreService.delete(rule)).subscribe(res =>{
-      alert("deleted with sucess...");
     }, err =>{
-      alert("deleted erro...");
     })
 }
 create(rule: Rule){

@@ -15,7 +15,6 @@ export class DropdowRuleComponent implements OnInit {
     @Output() ruleselect: EventEmitter<any> = new EventEmitter(false);
     @Input() selectt: string;
     @Input()  user: User= new User();
-    select2: string  = "user";
     rule$: Observable<Rule[]>;
 
 

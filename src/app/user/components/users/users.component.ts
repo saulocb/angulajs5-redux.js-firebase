@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 import { User } from '../../models/user';
-import { UserStoreService } from '../../service/userStoreService';
+import { Rule } from '../../models/rule';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 import { UserService } from '../../service/user.service';
 import { Router, NavigationExtras } from '@angular/router';
-import { Observable } from 'rxjs/Observable';
+import { UserStoreService } from '../../service/userStoreService';
 
 @Component({
   selector: 'app-users',
@@ -37,5 +38,6 @@ export class UsersComponent implements OnInit {
         this.userService.delete(user.key);
      }
   }
+
 
 }

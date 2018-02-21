@@ -29,6 +29,7 @@ export class UserEffects {
             .map(res => new userActions.LoadCompletedAction({user: res}))
             .catch(() => Observable.of({ type: userActions.ActionTypes.LOAD_ERROR }))
     );
+    
 
     @Effect()
     loadRule$: Observable<Action> = this.actions$
