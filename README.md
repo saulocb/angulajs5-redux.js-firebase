@@ -1,11 +1,9 @@
-# User
-
 
 
 # intall
 
 1)   run the command  "npm i"
-2) rund the comand  "ng serve"
+2)   rund the comand  "ng serve"
 
 
 #### Libraries
@@ -13,7 +11,6 @@
 - [Angular](https://angular.io)
 - [Bootstrap 4](https://getbootstrap.com)
 - [ng-bootsrap](https://ng-bootstrap.github.io/)
-- [Font Awesome](http://fontawesome.io)
 - [RxJS](http://reactivex.io/rxjs)
 - [ngx-translate](https://github.com/ngx-translate/core)
 
