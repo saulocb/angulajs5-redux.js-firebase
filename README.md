@@ -1,6 +1,6 @@
 
 
-# intall
+# install
 
 1)   run the command  "npm i"
 2)   rund the comand  "ng serve"
